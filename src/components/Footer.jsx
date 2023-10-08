@@ -3,6 +3,9 @@ import { styled } from "styled-components";
 const Container = styled.div`
   display: flex;
   background-color: black;
+  @media (max-width: 390px) {
+    flex-direction: column;
+  }
 `;
 
 const Left = styled.div`
@@ -49,6 +52,9 @@ const SocialIcon= styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  @media (max-width: 390px) {
+    display: none;
+  }
 `;
 
 const Title = styled.h3`

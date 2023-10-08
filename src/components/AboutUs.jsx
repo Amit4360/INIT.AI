@@ -48,7 +48,6 @@ const AboutUs = () => {
           <img src="./Vision.png"/>
         </div>
       </div>
-      <p id='Head'>&#8205; </p>
     </>
   )
 }
