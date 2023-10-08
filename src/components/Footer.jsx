@@ -1,15 +1,12 @@
 import { styled } from "styled-components";
+import {Link} from "react-router-dom"
 
 const Container = styled.div`
   display: flex;
   background-color: black;
-<<<<<<< HEAD
-  padding: 2vw;
-=======
   @media (max-width: 390px) {
     flex-direction: column;
   }
->>>>>>> 0d359ee4b854a208df80374db83cf84411409317
 `;
 
 const Left = styled.div`
@@ -55,6 +52,10 @@ const SocialIcon= styled.div`
 `;
 
 const Center = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
   flex: 1;
   padding: 20px;
   @media (max-width: 390px) {
@@ -114,7 +115,7 @@ const Footer = () => {
         <SocialContainer>
           <SocialIcon>
             <a href="https://www.instagram.com/djinit.ai/">
-            <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-github"></i>
             </a>
           </SocialIcon>
           <SocialIcon>
@@ -125,6 +126,15 @@ const Footer = () => {
           </SocialIcon>
         </SocialContainer>
       </Left>
+      <Center>
+        <Title>Useful Links</Title>
+        <List>
+            <ListItem><Link to="/">Home</Link></ListItem>
+            <ListItem><Link to="/blogs">Blogs</Link></ListItem>
+            <ListItem><Link to="/Team">Team</Link></ListItem>
+            <ListItem><Link to="/contact">Contact Us</Link></ListItem>
+        </List>
+      </Center>
       <Right>
         <Title>CONTACT</Title>
         <ContactItem><i class="fa-solid fa-location-dot me-2"></i> Vasai, Palghar, Maharashtra</ContactItem>
