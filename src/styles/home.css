@@ -1,0 +1,37 @@
+#page1 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0vh 0vw;
+    position: relative;
+    display: flex;
+}
+
+#page1 h1 {
+    font-size: 16vw;
+    text-transform: uppercase;
+    line-height: 14vw;
+    letter-spacing: -10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 20% 0vw;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    color: rgba(0, 0, 0, 0);
+    transition: color 0.5s;
+}
+
+#page1 h1:hover {
+    -webkit-text-stroke-color: white;
+    color: rgb(157, 157, 157);
+}
+
+
+#page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
