@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 const Container = styled.div`
   display: flex;
   background-color: black;
+  padding: 2vw;
 `;
 
 const Left = styled.div`
@@ -23,6 +24,7 @@ const Logo = styled.img`
 const Description = styled.p`
     margin: 20px 5px;
     color: white;
+    text-align: justify;
 `;
 
 const SocialContainer= styled.div`
@@ -30,8 +32,8 @@ const SocialContainer= styled.div`
 `;
 
 const SocialIcon= styled.div`
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -42,7 +44,7 @@ const SocialIcon= styled.div`
     transition: all 0.5s ease;
 
     &:hover{
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 `;
 
@@ -98,12 +100,13 @@ const Footer = () => {
       <Left>
         <Logo src="logo.png"></Logo>
         <Description>
-        Join us at Shoplist, your dedicated marketplace for sustainable and eco -friendly products. 
-        Together, let's illuminate the path to a greener, more sustainable future.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequuntur dolor accusantium quae laudantium repellendus magnam, quaerat ullam, deserunt sint doloremque consectetur dolorum nam a! Odit magni perferendis natus aut.
         </Description>
         <SocialContainer>
           <SocialIcon>
+            <a href="https://www.instagram.com/djinit.ai/">
             <i class="fa-brands fa-github"></i>
+            </a>
           </SocialIcon>
           <SocialIcon>
             <i class="fa-brands fa-linkedin"></i>
@@ -113,19 +116,6 @@ const Footer = () => {
           </SocialIcon>
         </SocialContainer>
       </Left>
-      <Center>
-        <Title>Useful Links</Title>
-        <List>
-            <ListItem>HOME</ListItem>
-            <ListItem>CART</ListItem>
-            <ListItem>BEAUTY</ListItem>
-            <ListItem>RECYCLED PRODUCTS</ListItem>
-            <ListItem>BIODEGRADABLE</ListItem>
-            <ListItem>My Account</ListItem>
-            <ListItem>Order Tracking</ListItem>
-            <ListItem>Terms</ListItem>
-        </List>
-      </Center>
       <Right>
         <Title>CONTACT</Title>
         <ContactItem><i class="fa-solid fa-location-dot me-2"></i> Vasai, Palghar, Maharashtra</ContactItem>
