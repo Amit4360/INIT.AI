@@ -3,7 +3,13 @@ import { styled } from "styled-components";
 const Container = styled.div`
   display: flex;
   background-color: black;
+<<<<<<< HEAD
   padding: 2vw;
+=======
+  @media (max-width: 390px) {
+    flex-direction: column;
+  }
+>>>>>>> 0d359ee4b854a208df80374db83cf84411409317
 `;
 
 const Left = styled.div`
@@ -51,6 +57,9 @@ const SocialIcon= styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  @media (max-width: 390px) {
+    display: none;
+  }
 `;
 
 const Title = styled.h3`
