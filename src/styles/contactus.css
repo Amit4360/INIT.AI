@@ -1,5 +1,6 @@
 form {
-    background-color: black;
+    background-color: white;
+    border: rgb(167, 167, 167) solid 3px;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -11,7 +12,7 @@ form {
 }
 
 form h3 {
-    color: #2af4ff;
+    color: #000000;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -20,7 +21,7 @@ form input[type='text'],
 form input[type='email'],
 form input[type='tel'],
 form textarea {
-    background-color: #333;
+    background-color: #e3e3e3;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -37,20 +38,24 @@ form textarea:focus {
 }
 
 form button[type='submit'] {
-    background-color: #2af4ff;
+    background-color: #000000;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     cursor: pointer;
 }
 
 form button[type='submit']:hover {
-    background-color: #1ac6dd;
+    background-color: #252525;
 }
 
 form textarea {
     font-family: Arial, sans-serif;
     resize: none;
+}
+
+#Contact {
+    margin-top: 10%;
 }

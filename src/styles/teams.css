@@ -1,0 +1,29 @@
+#page2 {
+    >p {
+        text-align: center;
+        padding: 7vh;
+        font-size: 5vh;
+    }
+}
+
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#members {
+    background-color: rgb(244, 244, 244);
+    padding: 5vh 10vh;
+    border-radius: 10vh;
+    margin-bottom: 3vh;
+    >img {
+        border-radius: 50%;
+        height: 30vh;
+        width: 30vh;
+    }
+    >p {
+        margin: 1vh auto;
+        text-align: center;
+    }
+}
