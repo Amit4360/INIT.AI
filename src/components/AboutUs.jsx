@@ -4,6 +4,7 @@ import styles from '../styles/aboutus.css'
 const AboutUs = () => {
   return (
     <>
+      <p id='Head'>About Us</p>
       <div id='AboutUs'>
         <div id="elem1" className='elem'>
           <div id="info">
@@ -47,6 +48,7 @@ const AboutUs = () => {
           <img src="./Vision.png"/>
         </div>
       </div>
+      <p id='Head'>&#8205; </p>
     </>
   )
 }

@@ -1,7 +1,16 @@
+#Head {
+    text-align: center;
+    font-size: 6vh;
+    font-family: Roboto;
+    font-weight: 700;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 3vh;
+}
+
 #AboutUs {
     display: flex;
     flex-wrap: wrap;
-    margin: 10vh auto;
     background-color: rgb(232, 232, 232);
 }
 
@@ -21,6 +30,11 @@
     >p {
         text-align: justify;
     }
+    >h3 {
+        font-weight: bold;
+        font-size: 5vh;
+        margin-bottom: 2vh;
+    }
 }
 
 .elem img{
@@ -30,6 +44,7 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     vertical-align: middle;
     margin: 2vh auto;
+    display: inline-block;
 }
 
 #elem1,
