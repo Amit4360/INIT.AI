@@ -35,9 +35,9 @@ const Header = () => {
           src="AI_Logo.png"
         />
         <div
-          className={`relative w-fit [font-family:'Inter-Bold',Helvetica] lg:hidden font-bold text-black text-[20px] tracking-[0] leading-[normal] whitespace-nowrap ${
+          className={`relative w-fit [font-family:'Inter-Bold',Helvetica] font-bold text-black text-[20px] tracking-[0] leading-[normal] whitespace-nowrap ${
             isScrolled || toggle ? "text-white" : ""
-        }`}
+          }`}
         >
           INIT.AI
         </div>
