@@ -1,21 +1,18 @@
 // Blogs.js
 import React from 'react';
-import { blogData } from '../data'; // Make sure this import path is correct
+import { blogData } from '../data'; 
 import Blog from '../components/Blog';
 
 const Blogs = () => {
   return (
-    <div className="container">
-      {blogData.map((item, index) => (
-        <Blog
-          image={item.img}
-          title={item.title}
-          date={item.date}
-          content={item.content}
-        />
-      ))}
+    <div>
+      {
+        blogData.map(item=>(
+            <Blog title={item.title} content={item.content} date={item.date} />
+        ))
+      }
     </div>
-  );
+  )
 };
 
 export default Blogs;
