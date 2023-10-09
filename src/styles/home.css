@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+
 *::selection {
     color: white;
     background-color: black;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 #page1 {
@@ -30,13 +35,13 @@
     margin: 20% 0vw;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     color: rgb(235, 235, 235);
-    transition: color 0.5s;
+    transition: -webkit-text-stroke-color 1s;
 }
 
 #page1 h1:hover {
     
-    -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: rgb(97, 55, 119);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(231, 231, 231);
 }
 
 
