@@ -12,7 +12,7 @@ const Team = () => {
                 teamData.map(item=>(
                     <div id="members">
                         <img src={item.image} alt="image"/>
-                        <p>{item.name}</p>
+                        <p className='font-bold'>{item.name}</p>
                         <p>{item.designation}</p>
                     </div>
                 ))

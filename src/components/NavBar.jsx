@@ -21,7 +21,7 @@ const Header = () => {
   const handleClick = () => setToggle(!toggle);
   return (
     <div
-      className={`pt-3 pb-3 flex justify-between items-center w-full sticky top-0 z-20 ${
+      className={`pt-2 pb-2 flex justify-between items-center w-full sticky px-8 top-0 z-20 ${
         isScrolled || toggle ? "bg-black bg-opacity-30 text-white" : ""
       }`}
     >
@@ -30,30 +30,30 @@ const Header = () => {
         className="inline-flex items-center pl-9 gap-[14px] relative"
       >
         <img
-          className="relative w-[40px] h-[40px] rounded-full"
+          className="relative w-[80px] h-[80px] rounded-full"
           alt="Group"
-          src="AI_Logo.png"
+          src="logo.png"
         />
         <div
-          className={`relative w-fit [font-family:'Inter-Bold',Helvetica] font-bold text-black text-[20px] tracking-[0] leading-[normal] whitespace-nowrap ${
+          className={`relative w-fit [font-family:'Inter-Bold',Helvetica] font-bold text-black text-[30px] tracking-[0] leading-[normal] whitespace-nowrap ${
             isScrolled || toggle ? "text-white" : ""
           }`}
         >
-          INIT.AI
+          <span className="text-purple-700">DJ</span>INIT.AI
         </div>
       </Link>
       <div className="pr-5 hidden lg:flex gap-5 items-center">
-        <div className="px-1 text-md">
-          <Link className="px-4" to="/">
+        <div className="px-1 text-2xl font-semibold ">
+          <Link className="px-10" to="/">
             Home
           </Link>
-          <Link className="px-4" to="/blogs">
+          <Link className="px-10" to="/blogs">
             Blog
           </Link>
-          <Link className="px-4" to="/team">
+          <Link className="px-10" to="/team">
             Team
           </Link>
-          <Link className="px-4" to="/contact">
+          <Link className="px-10  " to="/contact">
             Contact Us
           </Link>
         </div>

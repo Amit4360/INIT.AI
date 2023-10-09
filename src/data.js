@@ -44,44 +44,184 @@ export const teamData=[
         designation:"Vice President"
     },
     {
-        image:"./Assets/CP2.png",
-        name:"Vraj Desai",
-        designation:"President(R&D)"
-    },
-    {
-        image:"./Assets/CP.png",
-        name:"Pradhyuman Pandey",
-        designation:"President(Outreach)"
-    },
-    {
-        image:"./Assets/VCP.png",
-        name:"Shlok Mangle",
-        designation:"Vice-President"
-    },
-    {
-        image:"./Assets/VCP 2.png",
+        image:"./Assets/Screenshot 2023-10-09 072045.png",
         name:"Karna Mehta",
-        designation:"Vice President"
+        designation:"Secretary"
     },
     {
-        image:"./Assets/CP2.png",
+        image:"./Assets/Screenshot 2023-10-09 071955.png",
         name:"Vraj Desai",
-        designation:"President(R&D)"
+        designation:"Creatives Head"
     },
     {
-        image:"./Assets/CP.png",
+        image:"./Assets/Screenshot 2023-10-09 072004.png",
         name:"Pradhyuman Pandey",
-        designation:"President(Outreach)"
+        designation:"Creatives Head"
     },
     {
-        image:"./Assets/VCP.png",
+        image:"./Assets/Screenshot 2023-10-09 072013.png",
         name:"Shlok Mangle",
-        designation:"Vice-President"
+        designation:"Creatives Head"
     },
     {
-        image:"./Assets/VCP 2.png",
+        image:"./Assets/Screenshot 2023-10-09 072022.png",
         name:"Karna Mehta",
-        designation:"Vice President"
+        designation:"Logistics Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072031.png",
+        name:"Vraj Desai",
+        designation:"Logistics Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072051.png",
+        name:"Pradhyuman Pandey",
+        designation:"Tech Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072058.png",
+        name:"Shlok Mangle",
+        designation:"Tech Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072106.png",
+        name:"Karna Mehta",
+        designation:"Tech Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072125.png",
+        name:"Karna Mehta",
+        designation:"Tech Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072138.png",
+        name:"Karna Mehta",
+        designation:"Publicity Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072145.png",
+        name:"Karna Mehta",
+        designation:"Publicity Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072155.png",
+        name:"Karna Mehta",
+        designation:"Marketing Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 072205.png",
+        name:"Karna Mehta",
+        designation:"Marketing Head"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071604.png",
+        name:"Karna Mehta",
+        designation:"Senior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071610.png",
+        name:"Karna Mehta",
+        designation:"Senior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071618.png",
+        name:"Karna Mehta",
+        designation:"Senior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071624.png",
+        name:"Karna Mehta",
+        designation:"Senior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071630.png",
+        name:"Karna Mehta",
+        designation:"Senior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071637.png",
+        name:"Karna Mehta",
+        designation:"Senior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071642.png",
+        name:"Karna Mehta",
+        designation:"Senior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071743.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071746.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071755.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071804.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071813.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071825.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071830.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071840.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071846.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071857.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071912.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071912.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071924.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071931.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
+    },
+    {
+        image:"./Assets/Screenshot 2023-10-09 071937.png",
+        name:"Karna Mehta",
+        designation:"Junior Mentor"
     },
 ]
 
