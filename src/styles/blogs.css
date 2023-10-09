@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   transition: all 1s ease;
   padding: 0 5vw;
+  margin-top: 3vw;
 }
 
 .blog-item {
@@ -18,27 +19,109 @@
   max-width:300px;
 }
 
-.blog-image{
-  width: 100%;
-  height: 45%;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+@media (max-width: 60em) {
+  body {
+    padding: 3rem;
+  }
+}
+
+.grid {
+  display: grid;
+  width: 114rem;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+}
+@media (max-width: 60em) {
+  .grid {
+    grid-gap: 3rem;
+  }
+}
+.grid__item {
+  background-color: #fff;
+  border-radius: 0.4rem;
   overflow: hidden;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
 }
-
-.blog-image img {
-    width: 100%;
-    height: 100%;
+.grid__item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
 }
-
-.blog-title{
-
+.card__img {
+  display: block;
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
 }
-
-.blog-content{
-
+.card__content {
+  padding: 3rem 3rem;
 }
-
-.blog-button{
-    padding: 20px;
+.card__header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+  height: 10rem;
+  vertical-align: middle;
+  margin-bottom: 2rem;
+}
+.card__text {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 1.5rem;
+}
+.card_date {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;  
+  text-align: right;
+}
+.card__btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.card__btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+.card__btn:hover, .card__btn:active {
+  background-color: #383838;
+}
+.card__btn:hover span, .card__btn:active span {
+  margin-left: 1.5rem;
 }

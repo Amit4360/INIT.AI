@@ -1,22 +1,22 @@
 export const sliderData=[
         {
-            title: "Blog 1",
+            title: "Neural Networks",
             date: "10th October 2023",
-            image: "logo.png",
+            image: "./Blog/Blog9.png",
             link:"https://djinit-ai.github.io/2020/09/27/sigmoid.html",
             content : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias "
         },
         {
-            title: "Blog 2",
+            title: "Algorithmic Trading",
             date: "10th October 2023",
-            image: "logo.png",
+            image: "./Blog/Blog2.png",
             link:"https://djinit-ai.github.io/2020/09/27/Algorithmic-Trading.html",
             content : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias "
         },
         {
-            title: "Blog 3",
+            title: "Apriori Algorithm",
             date: "10th October 2023",
-            image: "AI.png",
+            image: "./Blog/Blog3.png",
             link:"https://djinit-ai.github.io/2020/09/22/apriori-algorithm.html",
             content : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias "
         },
@@ -88,9 +88,9 @@ export const teamData=[
 export const blogData=[
     {
         id:1,
-        title:"blog1",
+        title:"Activation Function In Neural Networks",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog1.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
@@ -98,9 +98,9 @@ export const blogData=[
     },
     {
         id:2,
-        title:"blog2",
+        title:"Getting started with TensorFlow.js",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog8.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias  ",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
@@ -108,9 +108,9 @@ export const blogData=[
     },
     {
         id:3,
-        title:"blog3",
+        title:"Apriori Algorithm",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog3.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias  ",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
@@ -118,9 +118,9 @@ export const blogData=[
     },
     {
         id:4,
-        title:"blog4",
+        title:"Artificial Intelligence-The Future of Football",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog4.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias  ",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
@@ -128,9 +128,9 @@ export const blogData=[
     },
     {
         id:5,
-        title:"blog5",
+        title:"An Insight into Tesla Autopilot AI",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog5.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias  ",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
@@ -138,9 +138,9 @@ export const blogData=[
     },
     {
         id:6,
-        title:"blog6",
+        title:"Spotify's Algorithm",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog6.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias  ",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
@@ -148,9 +148,9 @@ export const blogData=[
     },
     {
         id:7,
-        title:"blog7",
+        title:"Smart Reply in Gmail",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog7.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias  ",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
@@ -158,9 +158,9 @@ export const blogData=[
     },
     {
         id:8,
-        title:"blog8",
+        title:"Algorithmic Trading",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog2.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias  ",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
@@ -168,9 +168,9 @@ export const blogData=[
     },
     {
         id:9,
-        title:"blog9",
+        title:"Neural Networks",
         date : "9 October 2023",
-        image : "AI_Logo.png",
+        image : "./Blog/Blog9.png",
         info : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias  ",
         content1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
         content2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium at quasi blanditiis molestias",
